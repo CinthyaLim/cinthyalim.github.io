@@ -161,11 +161,11 @@ footer{color:var(--mute);font:400 .76rem var(--mono)}
       </div>
       <div class="nums">
         <div class="rv"><strong>3+</strong><span>years of commercial Android work</span></div>
-        <div class="rv"><strong>4</strong><span>apps shipped solo to Google Play in 2026</span></div>
-        <div class="rv"><strong>3 to 5</strong><span>days per app, from spec to release</span></div>
-        <div class="rv"><strong>96 → 40</strong><span>minutes, backup time I cut by profiling</span></div>
+        <div class="rv"><strong>96 → 40</strong><span>minutes to back up 7.8 GB, after profiling</span></div>
+        <div class="rv"><strong>11</strong><span>apps I work on that are live on Google Play</span></div>
+        <div class="rv"><strong>4</strong><span>of them built and released solo in 2026</span></div>
       </div>
-      <p class="lead" style="margin-top:28px">I am one of two Android engineers at <b>Mirai Technologies</b>, a subsidiary of Japan's Nakabayashi Co., Ltd., where I own features from <b>specification to Play Console release</b>. My strongest areas are <b>media and file handling</b>, reliable background work, and modernising legacy Java and XML apps with <b>Kotlin and Jetpack Compose</b>. I also run <b>Caramelia Studio</b>, my indie label, where I published Pagecove on my own.</p>
+      <p class="lead" style="margin-top:28px">I am one of two Android engineers at <b>Mirai Technologies</b>, a subsidiary of Japan's Nakabayashi Co., Ltd., where I own features from <b>specification to Play Console release</b>. A senior engineer reviews my code, and I work directly with our director and QA. My strongest areas are <b>media and file handling</b>, reliable background work, and modernising legacy Java and XML apps with <b>Kotlin and Jetpack Compose</b>. I also run <b>Caramelia Studio</b>, my indie label, where I published Pagecove on my own.</p>
       <div class="facts">
         <div class="fact rv"><small>Based in</small><strong>Jakarta, Indonesia</strong></div>
         <div class="fact rv"><small>Work rights</small><strong>Requires employer sponsorship (subclass 482)</strong></div>
@@ -179,17 +179,18 @@ footer{color:var(--mute);font:400 .76rem var(--mono)}
       <div class="row rv"><div class="when">Jul 2023 to now</div><div>
         <h3>Android Developer · Mirai Technologies</h3>
         <p>Subsidiary of Nakabayashi Co., Ltd., Japan · Jakarta (hybrid)</p>
+        <p style="margin-top:8px">Team of two Android engineers. I plan work with a senior engineer who reviews my code on GitHub, take requirements from the director, support QA with test cases and in-app debug tools, and monitor releases in Play Console and Firebase Crashlytics.</p>
         <ul>
-          <li>Built most of a media-backup app in Kotlin and Compose, then cut backup time from 96 to 40 minutes on the same device and drive by removing redundant calls and tuning threading.</li>
+          <li>Built most of a media-backup app in Kotlin and Compose, then cut the time to back up about 7.8 GB of media from 96 to 40 minutes on the same device and drive by removing redundant calls and tuning threading.</li>
           <li>Made backups safe against interruption: files are written as .part, verified by size and hash, and only then promoted, so a USB disconnect never leaves a corrupt file.</li>
-          <li>Shipped three apps to Google Play solo, each in 3 to 5 days from specification to release, working AI-first with Claude Code and Claude Design. I set the specification and architecture, revised the designs, tested and released.</li>
           <li>Stopped backups failing mid-transfer in Fueru Album (10,000+ installs) by migrating from SyncAdapter to WorkManager.</li>
           <li>Closed the feature gap with the iOS version of Remembering the Kanji in about one month, shipping five features.</li>
           <li>Removed visible lag in photo editing by tracing a frame-rate regression to disabled hardware acceleration.</li>
-          <li>Delivered five convenience-store printing apps, including Play Billing and yearly targetSdk upgrades.</li>
+          <li>Delivered five convenience-store printing apps that send print jobs to a network print service through Retrofit, with Play Billing and yearly targetSdk upgrades.</li>
+          <li>Built and released three new apps solo in 3 to 5 days each, using Claude Code and Claude Design to speed up the work. I set the specification and architecture, revised the designs, tested and released.</li>
         </ul>
         <ul class="chips"><li>Kotlin</li><li>Java</li><li>Jetpack Compose</li><li>WorkManager</li><li>Room</li><li>Storage Access Framework</li><li>Play Billing</li></ul></div></div>
-      <div class="row rv"><div class="when">Nov 2026 to now</div><div>
+      <div class="row rv"><div class="when">Sep 2026 to now</div><div>
         <h3><a href="https://carameliastudio-dev.github.io/about" target="_blank" rel="noopener">Founder · Caramelia Studio</a></h3>
         <p>My indie Android studio, run alongside my full-time role.</p>
         <ul>
@@ -206,18 +207,10 @@ footer{color:var(--mute);font:400 .76rem var(--mono)}
         <h3><a data-link="play" href="#">Pagecove: PDF Editor &amp; Scanner</a></h3>
         <p>My own offline PDF toolkit, built in one month: a built-in viewer with search, scanning, signing, form filling, page organising, merge, split, size reduction to upload limits, AES-256 passwords, watermarks and page numbers. No account, no uploads, English and Indonesian.</p>
         <ul class="chips"><li>Kotlin</li><li>Jetpack Compose</li><li>ML Kit</li><li>Play Billing</li><li>AdMob</li></ul></div></div>
-      <div class="row rv"><div class="when">Solo · live on Play</div><div>
-        <h3><a href="https://play.google.com/store/apps/details?id=com.mirai_apps.voxletapp" target="_blank" rel="noopener">Voxlet</a></h3>
-        <p>Built for Mirai in under a week. A private offline voice recorder: background recording, bookmarks, skip silence, trim and cut-middle editing, folders and tags, a fingerprint-locked hidden folder and a home-screen widget.</p>
-        <ul class="chips"><li>Compose</li><li>Media3</li><li>Room</li><li>Glance</li><li>Play Billing</li></ul></div></div>
-      <div class="row rv"><div class="when">Solo · live on Play</div><div>
-        <h3><a href="https://play.google.com/store/apps/details?id=com.mirai_apps.suratkilatapp" target="_blank" rel="noopener">SuratKilat</a></h3>
-        <p>Built for Mirai in under a week, after competitor research. An offline letter and CV maker with 33 free templates. Fill in your details once, reuse letterheads and signatures, build and share your own templates, and export clean PDFs.</p>
-        <ul class="chips"><li>Compose</li><li>Room</li><li>PdfDocument</li><li>WorkManager</li></ul></div></div>
-      <div class="row rv"><div class="when">Solo · live on Play</div><div>
-        <h3><a href="https://play.google.com/store/apps/details?id=com.mirai_apps.stamplerpdfapp" target="_blank" rel="noopener">Stamply</a></h3>
-        <p>Built for Mirai in under a week. A PDF signer and toolkit: draw, save and place signatures, scan to PDF, organise, merge, split, password protect and convert files.</p>
-        <ul class="chips"><li>Compose</li><li>ML Kit</li><li>PDF</li></ul></div></div>
+      <div class="row rv"><div class="when">Unreleased</div><div>
+        <h3>Media backup app</h3>
+        <p>Backs up photos and video to external drives and keeps the library browsable after the drive is unplugged. I cut a 7.8 GB backup from 96 to 40 minutes, made it safe against interruption with verified .part files, and prevented duplicates with content hashing. Verified against 30,000+ media files.</p>
+        <ul class="chips"><li>Compose</li><li>Storage Access Framework</li><li>Room</li><li>ContentObserver</li></ul></div></div>
       <div class="row rv"><div class="when">Live on Play</div><div>
         <h3><a href="https://play.google.com/store/apps/details?id=jp.co.nakabayashi.fuerustorage" target="_blank" rel="noopener">Fueru Album</a></h3>
         <p>Established photo backup app with 10,000+ installs, rated 4.1 out of 5. I rebuilt its backup pipeline on WorkManager so uploads wait for battery, storage and network instead of failing.</p>
@@ -230,10 +223,18 @@ footer{color:var(--mute);font:400 .76rem var(--mono)}
         <h3>Convenience-store printing apps</h3>
         <p><a href="https://play.google.com/store/apps/details?id=jp.co.nakabayashi.nameseal" target="_blank" rel="noopener">Name Seal</a>, <a href="https://play.google.com/store/apps/details?id=jp.co.nakabayashi.waru_photo" target="_blank" rel="noopener">Waru Photo</a>, <a href="https://play.google.com/store/apps/details?id=jp.co.nakabayashi.kopiihonsakurou" target="_blank" rel="noopener">Kopiihon</a>, <a href="https://play.google.com/store/apps/details?id=jp.co.nakabayashi.nihonseimei_photobook" target="_blank" rel="noopener">Photo Book</a> (white-labelled for Nippon Life Insurance) and <a href="https://play.google.com/store/apps/details?id=jp.co.nakabayashi.shinkei_suijaku" target="_blank" rel="noopener">Doki Doki Shinkei Suijaku</a>. Print-ready output rendered with Canvas and sent to a network print service.</p>
         <ul class="chips"><li>Canvas</li><li>Retrofit</li><li>Play Billing</li><li>Compose</li></ul></div></div>
-      <div class="row rv"><div class="when">Unreleased</div><div>
-        <h3>Media backup app</h3>
-        <p>Backs up photos and video to external drives, with thumbnails and low-resolution video proxies, hash-based duplicate prevention and a restore path for new devices. Verified against 30,000+ media files.</p>
-        <ul class="chips"><li>Compose</li><li>Storage Access Framework</li><li>Room</li><li>ContentObserver</li></ul></div></div>
+      <div class="row rv"><div class="when">Solo · live on Play</div><div>
+        <h3><a href="https://play.google.com/store/apps/details?id=com.mirai_apps.voxletapp" target="_blank" rel="noopener">Voxlet</a></h3>
+        <p>Built for Mirai in under a week. A private offline voice recorder: background recording, bookmarks, skip silence, trim and cut-middle editing, folders and tags, a fingerprint-locked hidden folder and a home-screen widget.</p>
+        <ul class="chips"><li>Compose</li><li>Media3</li><li>Room</li><li>Glance</li><li>Play Billing</li></ul></div></div>
+      <div class="row rv"><div class="when">Solo · live on Play</div><div>
+        <h3><a href="https://play.google.com/store/apps/details?id=com.mirai_apps.suratkilatapp" target="_blank" rel="noopener">SuratKilat</a></h3>
+        <p>Built for Mirai in under a week, after competitor research. An offline letter and CV maker with 33 free templates. Fill in your details once, reuse letterheads and signatures, build and share your own templates, and export clean PDFs.</p>
+        <ul class="chips"><li>Compose</li><li>Room</li><li>PdfDocument</li><li>WorkManager</li></ul></div></div>
+      <div class="row rv"><div class="when">Solo · live on Play</div><div>
+        <h3><a href="https://play.google.com/store/apps/details?id=com.mirai_apps.stamplerpdfapp" target="_blank" rel="noopener">Stamply</a></h3>
+        <p>Built for Mirai in under a week. A PDF signer and toolkit: draw, save and place signatures, scan to PDF, organise, merge, split, password protect and convert files.</p>
+        <ul class="chips"><li>Compose</li><li>ML Kit</li><li>PDF</li></ul></div></div>
       <div class="row rv"><div class="when">Solo · in progress</div><div>
         <h3>Jalan Tikus</h3>
         <p>A satirical card-swipe simulation game about bureaucracy, with three mini-games, a daily challenge and collectible endings. Planned for Google Play.</p>
@@ -260,7 +261,7 @@ footer{color:var(--mute);font:400 .76rem var(--mono)}
         <div class="skill rv"><h3>Storage and platform</h3><p>Room · DataStore · Storage Access Framework · MediaStore · Photo Picker</p></div>
         <div class="skill rv"><h3>Network and cloud</h3><p>Retrofit · OkHttp · Firestore · Firebase Auth · Crashlytics · ML Kit</p></div>
         <div class="skill rv"><h3>Release and monetisation</h3><p>Play Console · staged rollouts · Play Billing · AdMob · targetSdk upgrades</p></div>
-        <div class="skill rv"><h3>AI-assisted workflow</h3><p>Claude Code for implementation, review, tests and profiling · Claude Design for UI</p></div>
+        <div class="skill rv"><h3>Quality and workflow</h3><p>Manual test cases · debug tools for QA · GitHub code review · Claude Code · Claude Design</p></div>
       </div>
     </section>
 
